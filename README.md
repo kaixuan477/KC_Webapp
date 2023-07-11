@@ -6,7 +6,7 @@ Detailed info and setup is stated in the keycloak documentation, for step-by-ste
 
 Webapp code is contained in folder webapp/src. ReactJS is used for app frontend and TailwindCSS for site styling. 
 
-App.js and Nav.js contain the webapp structure, header and styling. Webpages consist of public pages (pages/homepage.js and pages/publicpage.js); and the private page (pages/privatepage.js) which requires user login to read.
+App.js and Nav.js contain the webapp structure, header and styling. Webpages consist of public pages ('pages/homepage.js' and 'pages/publicpage.js'); and the private page (pages/privatepage.js) which requires user login to read.
 
 ReactKeycloakProvider (wrapped in Nav.js) is used to connect the webapp to kc client server, with Keycloak.js containing kc client parameters. This is crucial to authenticate and send requests to kc oidc endpoints.
 
