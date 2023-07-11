@@ -1,6 +1,5 @@
 # KC_Webapp
-Webapp for Keycloak server (client and identity provider)
-
+## Webapp for Keycloak server (client and identity provider)
 This build allows for basic authentication and token refresh flows, with a login-required private page that reads users' names from access token. The webapp checks for keycloak (kc) login/sso-session on refresh, and initializes kc instance to run frontend components.
 Detailed info and setup is stated in the keycloak documentation, for step-by-step process to build the app.
 
